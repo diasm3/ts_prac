@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/steve/Dev/ts-prac/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220306.0/
+AnonymousFunction66e3de480100	index.js	/^var __extends = (this && this.__extends) || (function () {$/;"	f
+AnonymousFunction66e3de480200	index.js	/^            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||$/;"	f	function:AnonymousFunction66e3de480100.extendStatics
+AnonymousFunction66e3de480300	index.js	/^    return function (d, b) {$/;"	f	function:AnonymousFunction66e3de480100
+Compiling TypeSscript	README.md	/^## Compiling TypeSscript$/;"	s	chapter:ts_prac
+Direction1	index.js	/^var Direction1;$/;"	v
+Direction1	index.ts	/^enum Direction1 {$/;"	g
+Down	index.ts	/^    Down,$/;"	e	enum:Direction1
+Dynamic vs Static Typing	README.md	/^## Dynamic vs Static Typing$/;"	s	chapter:ts_prac
+Employee	index.js	/^    function Employee(id, name, position) {$/;"	f	function:Employee
+Employee	index.js	/^var Employee = \/** @class *\/ (function (_super) {$/;"	f
+Employee	index.ts	/^class Employee extends Person {$/;"	c
+Left	index.ts	/^    Left,$/;"	e	enum:Direction1
+MathFunc	index.ts	/^interface MathFunc {$/;"	i
+PROS & CONS	README.md	/^## PROS & CONS$/;"	s	chapter:ts_prac
+Person	index.js	/^    Person.prototype.register = function () {$/;"	c
+Person	index.js	/^    function Person(id, name, age, city) {$/;"	c	class:Person
+Person	index.js	/^var Person = \/** @class *\/ (function () {$/;"	f
+Person	index.ts	/^class Person implements PersonIterface {$/;"	c
+PersonIterface	index.ts	/^interface PersonIterface {$/;"	i
+Right	index.ts	/^    Right$/;"	e	enum:Direction1
+TypeScript?	README.md	/^## TypeScript?$/;"	s	chapter:ts_prac
+Up	index.ts	/^    Up,$/;"	e	enum:Direction1
+User	index.ts	/^type User = {$/;"	a
+UserInterface	index.ts	/^interface UserInterface {$/;"	i
+__	index.js	/^        function __() { this.constructor = d; }$/;"	c	class:AnonymousFunction66e3de480100.AnonymousFunction66e3de480300
+add	index.js	/^var add = function (x, y) { return x + y; };$/;"	f
+add	index.ts	/^const add: MathFunc = (x: number, y: number): number => x + y$/;"	C
+addNum	index.js	/^function addNum(x, y) {$/;"	f
+addNum	index.ts	/^function addNum(x:number, y:number) : number{$/;"	f
+age	index.js	/^var age;$/;"	v
+age	index.ts	/^    age: number$/;"	p	class:Person
+age	index.ts	/^    age? : number,$/;"	p	interface:UserInterface
+age	index.ts	/^let age: number$/;"	v
+arr	index.js	/^var arr = [1, 'Traversy', true];$/;"	v
+arr	index.ts	/^let arr: any[] = [1, 'Traversy', true]$/;"	v
+author	package.json	/^  "author": "",$/;"	s
+boolean	index.ts	/^let person: [number, string, boolean] = [1,'Brad', true ]$/;"	v
+brad	index.js	/^var brad = new Person(1, 'Brad', 36, 'New York');$/;"	v
+brad	index.ts	/^const brad = new Person(1, 'Brad', 36, 'New York')$/;"	C
+bugs	package.json	/^  "bugs": {$/;"	o
+cid	index.js	/^var cid = 1;$/;"	v
+city	index.js	/^    city: 'New York',$/;"	p	class:user1
+city	index.ts	/^    city : string,$/;"	p	interface:UserInterface
+city	index.ts	/^    city: string$/;"	p	class:Person
+comapny	index.js	/^var comapny = 'Traversy Media';$/;"	v
+comapny	index.ts	/^let comapny:string = 'Traversy Media'$/;"	v
+compilerOptions	tsconfig.json	/^  "compilerOptions": {$/;"	o
+constructor	index.ts	/^    constructor(id: number, name: string, age: number, city: string) {$/;"	m	class:Person
+constructor	index.ts	/^    constructor(id: number, name: string, position: string) {$/;"	m	class:Employee
+customerId	index.js	/^var customerId = cid;$/;"	v
+d	index.js	/^        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());$/;"	c
+description	package.json	/^  "description": "Ref url = [링크]{https:\/\/www.youtube.com\/watch?v=BCg4U1FzODs&t=54}",$/;"	s
+emp	index.js	/^var emp = new Employee(3, 'John', 'Manager');$/;"	v
+emp	index.ts	/^const emp = new Employee(3, 'John', 'Manager')$/;"	C
+employee	index.js	/^var employee;$/;"	v
+employee	index.ts	/^let employee: [number, string][]$/;"	v
+extendStatics	index.js	/^    var extendStatics = function (d, b) {$/;"	f	function:AnonymousFunction66e3de480100
+getArray	index.js	/^function getArray(items) {$/;"	f
+getArray	index.ts	/^function getArray<T>(items: T[]): T[] {$/;"	f
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/diasm3\/ts_prac#readme"$/;"	s
+id	index.js	/^    id: 1$/;"	p	class:user1
+id	index.js	/^    id: 1,$/;"	p	class:user
+id	index.js	/^var id = 5; \/\/type: number$/;"	v
+id	index.ts	/^    id : number$/;"	p	interface:UserInterface
+id	index.ts	/^    id: number$/;"	p	class:Person
+id	index.ts	/^    id: number$/;"	p	interface:PersonIterface
+id	index.ts	/^let id: number = 5 \/\/type: number$/;"	v
+ids	index.js	/^var ids = [1, 2, 3, 4, 5];$/;"	v
+ids	index.ts	/^let ids: number[] = [1,2,3,4,5]$/;"	v
+isPublished	index.js	/^var isPublished = true;$/;"	v
+isPublished	index.ts	/^let isPublished:boolean = true $/;"	v
+let	index.ts	/^let arr: any[] = [1, 'Traversy', true]$/;"	v
+license	package-lock.json	/^      "license": "ISC"$/;"	s	object:packages.
+license	package.json	/^  "license": "ISC",$/;"	s
+lockfileVersion	package-lock.json	/^  "lockfileVersion": 2,$/;"	n
+log	index.js	/^function log(message) {$/;"	f
+log	index.ts	/^function log(message: string  | number): void {$/;"	f
+main	package.json	/^  "main": "index.js",$/;"	s
+mike	index.js	/^var mike = new Person(2, 'Mike', 33, 'New York');$/;"	v
+mike	index.ts	/^const mike = new Person(2, 'Mike', 33, 'New York')$/;"	C
+name	index.js	/^    name: 'Brad'$/;"	p	class:user
+name	index.js	/^    name: 'John',$/;"	p	class:user1
+name	index.ts	/^    name : string,$/;"	p	interface:UserInterface
+name	index.ts	/^    name: string$/;"	p	class:Person
+name	index.ts	/^    name: string$/;"	p	interface:PersonIterface
+name	package-lock.json	/^      "name": "ts-prac",$/;"	s	object:packages.
+name	package-lock.json	/^  "name": "ts-prac",$/;"	s
+name	package.json	/^  "name": "ts-prac",$/;"	s
+packages	package-lock.json	/^  "packages": {$/;"	o
+person	index.js	/^var person = [1, 'Brad', true];$/;"	v
+person	index.ts	/^let person: [number, string, boolean] = [1,'Brad', true ]$/;"	v
+pid	index.js	/^var pid;$/;"	v
+pid	index.ts	/^let pid: number | string $/;"	v
+position	index.ts	/^    position: string$/;"	p	class:Employee
+register	index.js	/^    Person.prototype.register = function () {$/;"	m	class:Person
+register	index.ts	/^    register(): string$/;"	m	interface:PersonIterface
+register	index.ts	/^    register(){$/;"	m	class:Person
+repository	package.json	/^  "repository": {$/;"	o
+requires	package-lock.json	/^  "requires": true,$/;"	b
+scripts	package.json	/^  "scripts": {$/;"	o
+string	index.ts	/^let employee: [number, string][]$/;"	v
+string	index.ts	/^let person: [number, string, boolean] = [1,'Brad', true ]$/;"	v
+sub	index.js	/^var sub = function (x, y) { return x - y; };$/;"	f
+sub	index.ts	/^const sub: MathFunc = (x: number, y: number): number => x - y$/;"	C
+test	package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	s	object:scripts
+ts_prac	README.md	/^# ts_prac$/;"	c
+type	package.json	/^    "type": "git",$/;"	s	object:repository
+url	package.json	/^    "url": "git+https:\/\/github.com\/diasm3\/ts_prac.git"$/;"	s	object:repository
+url	package.json	/^    "url": "https:\/\/github.com\/diasm3\/ts_prac\/issues"$/;"	s	object:bugs
+user	index.js	/^var user = {$/;"	c
+user	index.ts	/^const user: User = {$/;"	C
+user1	index.js	/^var user1 = {$/;"	c
+user1	index.ts	/^const user1: UserInterface = {$/;"	C
+user1	index.ts	/^user1.id = 5$/;"	C
+version	package-lock.json	/^      "version": "1.0.0",$/;"	s	object:packages.
+version	package-lock.json	/^  "version": "1.0.0",$/;"	s
+version	package.json	/^  "version": "1.0.0",$/;"	s
+x	index.js	/^var x = 'Hello';$/;"	v
+x	index.ts	/^let x: any = 'Hello'$/;"	v
